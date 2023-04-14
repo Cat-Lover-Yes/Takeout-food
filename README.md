@@ -3,11 +3,24 @@
 
 > 对于项目的任何问题，或者你在本地部署时遇到的无法解决的问题，都可以提交issues，又可能你遇到的问题别人已经提交了issues，那么你就直接可以得到解决。没有解决的我会在第一时间进行解决和答复
 
+## 项目访问
+> 在项目运行以后，访问下面的地址，IP地址改成自己的，本地的话就是localhost，端口就是设置的端口，默认为8080
+
+
+前台：/front/index.html
+
+后台：/backend/index.html
+
+> 本地默认的话就是这两个地址：
+> 前台：[localhost:8080/front/index.html](localhost:8080/front/index.html)
+> 后台：[localhost:8080/backend/index.html](localhost:8080/backend/index.html)
+> 
 ## 瑞吉外卖
 
 &emsp;&emsp;本项目是参考B站黑马程序员的《瑞吉外卖》教程所实现的一个SpringBoot+MybatisPlus+Mysql技术栈的前后端分离外卖管理系统。对于初学者较为友好，业务逻辑简单易上手，适合刚学完ssm做的一个练手项目。
 
 &emsp;&emsp;项目目前分为V1和V2两个版本，V2版本较V1版本来说，加入了Redis技术和其他地方的一些优化。
+
 
 - 未学习Redis的读者，可以根据V1版本进行学习，后期适配Redis即可。
 - 了解过Redis的读者，直接建议上手V2版本，适配Redis，可以适当浏览V1的Session部分，进行对比，从而更好的体现出使用Redis的优点，加深印象。
